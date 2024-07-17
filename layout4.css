@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body div {
+    border: 3px solid white;
+}
+
+.logo {
+    width: 100%;
+    height: 10vh;
+    background-color: gray;
+    border: 4px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo .logoP {
+    font-size: 2rem;
+    text-indent: 1rem;
+}
+
+.logo .navigationP {
+    font-size: 1.4rem;
+    padding-right: 15rem;
+}
+
+.box {
+    width: 25%;
+    height: 15vh;
+    background-color: gray;
+    border: 10px solid white;
+
+}
+
+.bigger-box {
+    flex: 1;
+    height: 25vh;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bigger-box p {
+  font-size: 1.3rem;
+}
+
+.footer {
+    width: 100%;
+    height: 5vh;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    font-size: 1.3rem;
+}
